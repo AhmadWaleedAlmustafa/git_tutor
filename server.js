@@ -7,6 +7,7 @@
   app.get('/test',(req,res,next)=> {
     res.json({'message':'ok'})
  });
+  console.log("Hello Express ")
    app.get('/test1',(req,res,next)=> {
     res.json({'message':'ok'})
  });
