@@ -10,5 +10,5 @@
    app.get('/test1',(req,res,next)=> {
     res.json({'message':'ok'})
  });
- 
+  console.log("Hello Express ")
  app.listen(3000,()=>console.log('listening on port 3000'))
